@@ -9,6 +9,18 @@
 
 /*  GROUPING  ============================================================================= */
 
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
 
 .group:before,
 .group:after {
@@ -27,7 +39,7 @@
 .col {
 	display: block;
 	float:left;
-	/*margin: 1% 0 1% 1.6%;*/
+	margin: 1% 0 1% 1.6%;
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
