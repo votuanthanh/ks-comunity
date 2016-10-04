@@ -1,0 +1,39 @@
+.content .right {
+	padding: 8px 90px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 19%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 15px;
+}
+
+.content .right h3 {
+	font-size: 1.2em;
+	color: #047951;
+	padding-bottom: 15px;
+}
+.content .right p {
+	line-height: 1.6;
+}
+
+.content .right .market{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.content .right .market p {
+	text-align: center !important;
+}
+.content .right p:last-child{
+	text-align: right;
+	padding-top: 20px;
+}

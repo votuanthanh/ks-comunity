@@ -1,0 +1,42 @@
+.content .left .company-logo span {
+	    font-size: 1.5em;
+}
+.content .right {
+	padding: 8px 90px 15px 15px;
+}
+.content .right h1 {
+	margin-top: 0;
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: KozGoPr6n Heavy;
+}
+.content .right img.border {
+	max-width: 19%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 15px;
+}
+.content .right h3 {
+	font-size: 1.2em;
+	color: #047951;
+	padding-bottom: 15px;
+}
+.content .right p {
+	line-height: 1.6;
+	padding-bottom: 25px;
+	text-align: justify;
+}
+
+.content .right ol {
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+.content .right ol li {
+	padding-bottom: 20px;
+}
+.content .right p:last-child{
+	text-align: right;
+}

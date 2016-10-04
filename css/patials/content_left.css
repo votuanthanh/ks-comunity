@@ -1,0 +1,66 @@
+/* CONTENT */
+.content {
+	padding-top: 15px;
+	padding-bottom: 90px;
+}
+/*Content : LEFT*/
+.content .left {
+	padding: 0px 0px 5px 0px;
+}
+.content .left .company-logo {
+	text-align: center;
+}
+.content .left .company-logo img{
+	max-width: 15%;
+    vertical-align: middle;
+}
+.content .left .company-logo span {
+	font-size: 2.3em;
+    font-weight: bold;
+    color: #0166b8;
+    font-family: KozGoPr6n Heavy;
+    vertical-align: middle;
+    padding-left: 6px;
+}
+.content .left .company-logo h1 {
+	font-size: 30px;
+	color: #0166b8;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 6px;
+
+
+}
+.content .left .boder {
+	display: block;
+    max-width: 56% !important;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.content .left ul.sub-menu-company {
+	text-align: center;
+    list-style: none;
+}
+.content .left ul.sub-menu-company li {
+	display: block;
+	width: 70%;
+	padding: 5px 8px;
+	margin:0 auto;
+}
+.content .left ul.sub-menu-company li a {
+	text-decoration: none;
+    font-size: 1.1em;
+    color: #000;
+    line-height: 1.6;
+    transition: all .4s;
+    word-spacing: 2px;
+}
+.content .left ul.sub-menu-company li img{
+	max-width: 50%;
+}
+.content .left ul.sub-menu-company li a:hover {
+	color: #0166b8;
+}
+.content .left ul.sub-menu-company li a.active {
+	color: #0166b8;
+}

@@ -1,0 +1,51 @@
+.content .right {
+	padding: 8px 90px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 19%;
+	display: block;
+	padding-bottom: 15px;
+}
+
+.content .right h3 {
+	font-size: 1.2em;
+	color: #047951;
+	padding-bottom: 15px;
+}
+.content .right p {
+	line-height: 1.6;
+}
+
+.content .right .office {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.content .right .office p {
+	background-image: url("../images/ul.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+	padding-left: 30px;
+	font-size: 1em;
+}
+.content .right .office ul {
+	list-style: none;
+	padding-top: 10px;
+}
+.content .right .office ul li {
+	display: inline-block;
+	width: 28%;
+	background-color: #0166b8;
+	padding:10px;
+	color: #fff;
+	text-align: center;
+}

@@ -5,9 +5,20 @@
  * 2. Correct the line height in all browsers.
  * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-
+@font-face {
+    font-family: KozGoPr6n Bold;
+    src: url("../../font/KozGoPr6n Bold.otf");
+}
+@font-face {
+    font-family: KozGoPr6n Heavy;
+    src: url("../../font/KozGoPr6n Heavy.otf");
+}
+@font-face {
+    font-family: KozGoPr6n Medium;
+    src: url("../../font/KozGoPr6n Medium.otf");
+}
 html {
-  font-family: sans-serif; /* 1 */
+font-family: KozGoPr6n Medium, KozGoPr6n Heavy, KozGoPr6n Medium, Arial,"Helvetica Neue",Helvetica,sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */

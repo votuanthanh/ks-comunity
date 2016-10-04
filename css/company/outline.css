@@ -1,0 +1,96 @@
+.content .left .company-logo span {
+	    font-size: 1.5em;
+}
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	display: block;
+	max-width: 19%;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.content .right table, th, td {
+    border: 1px solid #0166b8;
+    border-collapse: collapse;
+}
+.content .right th{
+    padding: 5px;
+    text-align: center;
+}
+.content .right td{
+    padding: 15px 5px 15px 15px;
+    text-align: left;
+}
+/*Tag 1 phong*/
+.content .right .color_tbl_top{
+	background-color:#0166b8;
+}
+.content .right .color_tbl_left{
+	width:25%;
+	vertical-align:top;
+	background-color:#0166b8;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.content .right .color_tbl_left_sub {
+	border-bottom: 1px solid #fff;
+}
+.content .right .color_tbl_left_1 p{
+	text-align:left;
+}
+.content .right .color_tbl_left_sub{
+	background-color:#208966;padding-left:60px;
+}
+.content .right .color_tbl_right_1{
+	padding-right:550px;
+}
+.content .right .content_city #city_img_1{
+	width: auto; 
+	height: auto;
+	max-width: 300px;
+	max-height: 400px;
+}
+.content .right .content_city .row b #padding_right_city2{
+	padding-right:70px;
+}
+.content .right .content_city .row b #padding_right_city3{
+	padding-right:50px;
+}
+
+.content .right .content_city #city_img_2{
+	width: auto; 
+	height: auto;
+	max-width: 300px;
+	max-height: 400px;
+}
+.content .right .content_city #city_img_3{
+	width: auto; 
+	height: auto;
+	max-width: 300px;
+	max-height: 400px;
+}
+/*Tag 1 phong*/
+
+.content .right img {
+	max-width: 13%;
+}
+.content .right .text-infor-person .txt-left {
+	padding-top: 20px;
+}
+.content .right .text-infor-person .img-right img.person{
+	max-width: 50%;
+}
+.content .right .text-infor-person .img-right {
+	padding-left: 30px
+}

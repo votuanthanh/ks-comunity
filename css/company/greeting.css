@@ -1,0 +1,53 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 24%;
+	margin: 0 auto;
+	display: block;
+}
+
+.content .right h3 {
+	font-size: 1.1em;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color: #0166b8;
+    background-image: url("../../images/boder_small.png");
+    background-size: 60px auto;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.content .right .title-table {
+	font-size: 1.1em;
+	color: #15815c;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	background-image: url("../../images/ul.png");
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+	background-position: left center;
+}
+.content .right p{
+	padding-top: 10px;
+}
+.content .right .avatar {
+	padding-right: 150px;
+}
+.content .right .avatar img{
+	max-width: 100%;
+}
+.content .right .avatar span{
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}

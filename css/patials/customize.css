@@ -1,3 +1,20 @@
+@font-face {
+    font-family: KozGoPr6n Bold;
+    src: url("../../font/KozGoPr6n Bold.otf");
+}
+@font-face {
+    font-family: KozGoPr6n Heavy;
+    src: url("../../font/KozGoPr6n Heavy.otf");
+}
+@font-face {
+    font-family: KozGoPr6n Medium;
+    src: url("../../font/KozGoPr6n Medium.otf");
+}
+@font-face {
+    font-family: KozGoPr6n Regular;
+    src: url("../../font/KozGoPr6n Regular.otf");
+}
+
 *{
 	margin:0;
 	padding: 0;
@@ -9,7 +26,7 @@ html{
 }
 body{
 	font-size: 13px;
-	font-family: verdana, "ÉqÉâÉMÉmä€ÉS ProN W4", "Hiragino Maru Gothic ProN", ÉÅÉCÉäÉI, Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+	font-family: KozGoPr6n Medium, Arial,"Helvetica Neue",Helvetica,sans-serif, KozGoPr6n Regular, KozGoPr6n Heavy, KozGoPr6n Bold;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-size-adjust: none;
