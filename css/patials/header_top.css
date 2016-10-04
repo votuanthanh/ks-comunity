@@ -1,0 +1,49 @@
+/*HEADER TOP*/
+.header-top {
+	margin-bottom: 2px;
+}
+.header-top .right {
+    margin-top: 30px;
+}
+.header-top .right h2 {
+	margin-bottom: 10px;
+}
+
+.header-top .left {
+    padding-left: 20px;
+    padding-top: 3px;	
+}
+.header-top .logo-ks-comunity {
+	max-width: 55%;
+    padding-left: 10px;
+}
+
+.header-top h2 {
+	color: #208965;
+    font-size: 32px;
+}
+.header-top .navigation-bar ul.parent-menu {
+	list-style: none;
+	margin-left: -16px; 
+}
+
+.header-top .navigation-bar ul.parent-menu li {
+	float: left;
+
+}
+.header-top .navigation-bar ul.parent-menu li a {
+	display: block;
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    color: #0166b8;
+    
+    font-size: 12px;
+    text-transform: uppercase;
+   
+    transition: all .4s;
+}
+.header-top .navigation-bar ul.parent-menu li:hover a {
+	color: #fff;
+	background-color: #0166b8;
+}

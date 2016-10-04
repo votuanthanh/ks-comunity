@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #fff;
+	box-sizing: border-box;
+}
+body{
+	font-size: 13px;
+	font-family: verdana, "ƒqƒ‰ƒMƒmŠÛƒS ProN W4", "Hiragino Maru Gothic ProN", ƒƒCƒŠƒI, Meiryo, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+/*CUSTOMIZE */
+.clearfix {zoom:1;}
+.clearfix:after{
+	content: '.';
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.row:after{
+	content: '.';
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
