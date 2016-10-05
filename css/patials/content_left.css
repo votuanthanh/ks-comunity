@@ -56,7 +56,7 @@
     word-spacing: 2px;
 }
 .content .left ul.sub-menu-company li img{
-	max-width: 50%;
+	max-width: 30% !important;
 }
 .content .left ul.sub-menu-company li a:hover {
 	color: #0166b8;

@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/patials/customize.css">
 	<link rel="stylesheet" type="text/css" href="css/patials/header.css">
 	<link rel="stylesheet" type="text/css" href="css/patials/header_top.css">
+	<link rel="stylesheet" type="text/css" href="css/patials/content_left.css">
 	<link rel="stylesheet" type="text/css" href="css/patials/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/company/vision.css">
 
@@ -67,16 +68,16 @@
 				<nav class="navigation-bar">
 					<ul class="parent-menu clearfix">
 						<li><a href="#">Home</a></li>
-						<li>
+						<li class="dropdown">
 							<a href="#">Company</a>
-							<!--<ul class="sub-menu clearfix">
-								<li><a href="#">社長挨拶</a></li>
+							<ul class="sub-menu clearfix">
+								<li><a href="#">社長挨拶 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 								<li><a href="#">ビジョン</a></li>
 								<li><a href="#">会社概要</a></li>
 								<li><a href="#">会社情報</a></li>
 								<li><a href="#">組織概要</a></li>
 								<li><a href="#">採用情報</a></li>
-							</ul> -->
+							</ul> 
 						</li>
 						<li><a href="#">Service</a></li>
 						<li><a href="#">K-Nex</a></li>
@@ -139,10 +140,10 @@
 			<aside class="col span_3_of_12 left">
 				<div class="row company-logo">
 					<img src="images/logo-comunity.png" alt="Logo KS-Comunity" width="">
-					<h1>Company</h1>
-					<div class="clearfix"></div>
+					<span>Company</span>
+					<img src="images/boder.png" alt="Boder" class="boder">
 				</div>
-				<img src="images/boder.png" alt="Boder" class="boder">
+				
 				<ul class="sub-menu-company">
 					<li>
 						<a href="#" class="active">社長挨拶</a>
@@ -277,5 +278,17 @@
 	<script type= "text/javascript" src = "js/jquery.wideslider.js"></script>
 	<script type= "text/javascript" src = "js/jquery.nivo.slider.js"></script>
 	<script type="text/javascript"  src = "js/rslides.config.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var $dropdown;
+			$('.dropdown ul').hide();
+			$('.dropdown').hover(function() {
+			    $dropdown = $(this).find('ul');
+			    $dropdown.stop().slideDown(500);
+			}, function() {
+			    $dropdown.stop().slideUp(200);
+			});
+		})
+	</script>
 </body>
 </html>

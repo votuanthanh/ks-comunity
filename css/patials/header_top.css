@@ -3,15 +3,15 @@
 	margin-bottom: 2px;
 }
 .header-top .right {
-    margin-top: 30px;
+    margin: 23px 0 0 -40px;
 }
 .header-top .right h2 {
 	margin-bottom: 10px;
 }
 
 .header-top .left {
-    padding-left: 20px;
-    padding-top: 3px;	
+    padding-left: 25px;
+	margin-top: 5px;
 }
 .header-top .logo-ks-comunity {
 	max-width: 55%;
@@ -22,28 +22,47 @@
 	color: #208965;
     font-size: 32px;
 }
-.header-top .navigation-bar ul.parent-menu {
+.header-top .navigation-bar ul {
 	list-style: none;
 	margin-left: -16px; 
 }
 
-.header-top .navigation-bar ul.parent-menu li {
+.header-top .navigation-bar ul li {
 	float: left;
-
+    position:relative;
 }
-.header-top .navigation-bar ul.parent-menu li a {
+.header-top .navigation-bar li li {
+    width: 200px;
+}
+.header-top .navigation-bar ul li a {
 	display: block;
     padding: 5px 17px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: #0166b8;
-    
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
-   
-    transition: all .4s;
+    transition: all .3s;
+    font-family: KozGoPr6n Heavy;
+    white-space:nowrap;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
-.header-top .navigation-bar ul.parent-menu li:hover a {
+.header-top .navigation-bar ul li:hover a {
 	color: #fff;
 	background-color: #0166b8;
+}
+.header-top .navigation-bar ul.parent-menu ul {
+    position:absolute;
+    left:16px;
+    z-index: 100;
+}
+.header-top .navigation-bar ul.parent-menu ul.sub-menu li a {
+    padding:10px 10px 10px 15px;
+    font-weight: normal;
+}
+.header-top .navigation-bar ul.parent-menu ul.sub-menu li:hover a {
+   background: #0179da;
 }
