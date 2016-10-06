@@ -10,7 +10,8 @@
     margin-top: 0;
 }
 .content .right img.border {
-	max-width: 24%;
+	max-width: 18%;
+    margin-left: 5%;
 }
 
 .content .right h3 {

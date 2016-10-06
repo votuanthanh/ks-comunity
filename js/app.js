@@ -30,3 +30,8 @@ $('.content').waypoint(function(direction){
 	offset : '100px'
 });
 
+$(document).ready(function(){
+	$("img.lazy").lazyload({
+    	effect : "fadeIn"
+	});
+});

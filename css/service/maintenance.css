@@ -12,6 +12,7 @@
 }
 .content .right img.border {
 	max-width: 18%;
+    margin-left: 4%;
 }
 .green {
     color: #017950;
@@ -31,6 +32,13 @@
     background-repeat: no-repeat;
     background-size: 15px auto;
     background-position: left center;
+}
+.content .right p:first-child {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.content .right h2 {
+    color: #017950;
 }
 .content .right ul {
     padding-left: 42px;
