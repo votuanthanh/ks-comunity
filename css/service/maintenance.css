@@ -1,0 +1,98 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+    line-height: 1.7;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 18%;
+}
+.green {
+    color: #017950;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.blue {
+    color: #0367b9;
+    font-weight: bold;
+}
+.content .right p.arrow-left {
+    color: #15815c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: url("../../images/ul.png");
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: left center;
+}
+.content .right ul {
+    padding-left: 42px;
+    padding-bottom: 10px;
+}
+
+.content .right table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 15px;
+}
+.content .right table tr,
+.content .right table tr td
+ {
+    border:1px solid #0166b8;
+}
+.content .right table tr td {
+    padding: 15px;
+}
+.content .right table tr td:first-child {
+    background: #0166b8;
+    width: 30%;
+    vertical-align: top;
+    border-right: 1px solid #0166b8;
+    border-bottom: 1px solid #fff;
+    background-color: #0166b8;
+    color: #fff;
+    text-align: left;
+}
+.content .right table tr td.col2 {
+   
+}
+.content .right table tr td.col2 img {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.content .right table tr td.col2 p {
+    text-align: center;
+    color: #017950;
+
+}
+.content .right .txt-section {
+    padding-bottom: 10px;
+}
+.content .right .txt-section .sub-arrow-left {
+    color: #15815c;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    background-image: url("../../images/small-ul.png");
+    background-repeat: no-repeat;
+    background-size: 10px auto;
+    background-position: left center;
+}
+.content .right .contain {
+    padding-bottom: 10px;
+}
+.content .right .contain p {
+    padding-bottom: 10px;
+}
+.content .right .contain ol {
+    padding-left: 32px;
+}

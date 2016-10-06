@@ -1,0 +1,60 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 11%;
+}
+.content .right h3 {
+	font-size: 1.4em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #017950;
+}
+.content .right h3 {
+
+}
+.content .right ol {
+	padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.content .right table {
+	 border-collapse: collapse;
+	 width: 100%;
+    border-spacing: 0;
+    margin-bottom: 15px;
+}
+.content .right table tr {
+	border: 1px solid #0166b8;
+}
+.content .right table tr td:first-child {
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+	padding: 15px;
+	border-right: 1px solid #0166b8;
+	border-bottom: 1px solid #fff;
+	background-color: #0166b8;
+	color: #fff;
+}
+
+.content .right table tr td.map_r iframe {
+	max-width: 100%;
+}
+
+.content .right table tr td p {
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.content .right table tr td img {
+	max-width: 40%;
+}

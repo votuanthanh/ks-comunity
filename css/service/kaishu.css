@@ -1,0 +1,89 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 18%;
+	margin-left: 4%;
+}
+.content .right p {
+	padding: 15px 0 10px 0;
+	line-height: 1.8;
+}
+
+.content .right .text-infor-person .txt-left {
+	padding-top: 5px;
+}
+.content .right .text-infor-person .txt-left p {
+	text-align: justify;
+}
+.content .right .text-infor-person .img-right img.person{
+	max-width: 50%;
+
+}
+.content .right .text-infor-person .img-right {
+	padding-left: 30px;
+	padding-top: 26px;
+}
+.content .right h2 {
+	color: #15815c;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.content .right table {
+	border-collapse: collapse;
+	width: 100%;
+    border-spacing: 0;
+}
+.content .right table tr,
+.content .right table tr td {
+	border: 1px solid #0166b8;
+}
+.content .right table tr td {
+	padding: 10px 13px 10px 13px;
+}
+.content .right table.table1 td.col1 {
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	border-right: 1px solid #0166b8;
+	border-bottom: 1px solid #fff;
+	background-color: #0166b8;
+	color: #fff;
+}
+.content .right table.table1 td:last-child {
+	text-align: center;
+}
+.content .right table.table1 td:last-child p:first-child {
+	text-align: justify;
+	padding: 0;
+}
+.content .right table.table1 td:last-child img {
+	max-width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+.content .right table.table2 tr td {
+	text-align: center;
+}
+.content .right table.table2 tr td img {
+	max-width: 100%;
+}
+.content .right table.table2 tr td p {
+	padding-bottom: 0;
+}
+.red {
+    color: #ff0000;
+}
+.green {
+	color: #15815c;
+	text-align: center;
+}

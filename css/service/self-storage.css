@@ -1,0 +1,36 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 20%;
+}
+.content .right p {
+	padding: 15px 0 10px 0;
+}
+.content .right .service {
+	padding-top: 30px;
+	text-align: center;
+}
+.content .right .service a {
+	padding: 10px 12px;
+	background-color: #0166b8;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.content .right .service a:hover {
+	background-color:  #0179da;
+}
+.content .right .service a img {
+	max-width: 12px;
+}

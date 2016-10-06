@@ -1,0 +1,37 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 20%;
+    margin-left: 8%;
+}
+.content .right .k-life-container {
+	padding-top: 40px;
+}
+.content .right .k-life-container .sub-section {
+	    padding: 5px;
+}
+.content .right .k-life-container .sub-section a {
+	display: block;
+	padding-top: 15px;
+    width: 75%;
+    background-color: #0166b8;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.content .right .k-life-container .sub-section a:hover{
+	background-color: #015396;
+}

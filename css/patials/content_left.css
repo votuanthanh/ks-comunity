@@ -52,15 +52,17 @@
     font-size: 1.1em;
     color: #000;
     line-height: 1.6;
-    transition: all .4s;
     word-spacing: 2px;
+    transition: all .3s;
 }
 .content .left ul.sub-menu-company li img{
 	max-width: 30% !important;
 }
 .content .left ul.sub-menu-company li a:hover {
 	color: #0166b8;
+	font-weight: bold;
 }
 .content .left ul.sub-menu-company li a.active {
 	color: #0166b8;
+	font-weight: bold;
 }

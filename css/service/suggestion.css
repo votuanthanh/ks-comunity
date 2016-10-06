@@ -1,0 +1,126 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 18%;
+    margin-left: 7%;
+}
+.green {
+    color: #017950;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.blue {
+    color: #0367b9;
+   
+}
+.red {
+    color: #ff0000;
+}
+.content .right p.arrow-left {
+    /*color: #15815c;*/
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: url("../../images/ul.png");
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: left center;
+}
+.content .right p span a.green {
+    color: #017950;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.content .right p span a.green:hover {
+    color: #02cd88;
+}
+.content .right ul {
+    padding-top: 10px;
+    padding-left: 42px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+}
+.content .right table{
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+.content .right table, th, td {
+    border: 1px solid #0166b8;
+    border-collapse: collapse;
+    padding: 5px 10px 5px 0;
+    line-height: 1.8;
+}
+.content .right table.table1 tr td.col1 {
+    padding-left: 10px;
+    vertical-align: top;
+    background-color: #0166b8;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.content .right table.table1 tr td.col2 {
+    padding-left: 15px;
+}
+
+.content .right table.table2 td{
+    padding-left:10px;
+}
+.content .right table.table2 td:first-child{
+    background-color: #0166b8;
+    vertical-align: top;
+    
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+input[type=text],
+textarea[name=message] {
+    margin-bottom: 5px;
+    background-color: #dadada;
+    border-width: 0;
+    padding: 3px 2px;
+}
+
+.content .right table.table3 td:first-child {
+    padding-left: 10px;
+    background-color: #0166b8;
+    vertical-align: top;
+    background-color: #0166b8;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.content .right table.table3 td:last-child {
+    padding-left: 15px;
+}
+.content .right p.last {
+    text-align: center;
+    padding: 12px 0 5px 0;
+}
+
+.content .right p.last .btn {
+    background-color: #0166b8;
+    border-width: 0;
+    padding: 8px 15px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.content .right p.last .btn:hover {
+    background-color: #0179da;
+}

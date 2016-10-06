@@ -55,3 +55,9 @@ body{
 .pull-right{
 	float: right;
 }
+.center-text {
+	text-align: center;
+}
+.left-text{
+	text-align: left;
+}

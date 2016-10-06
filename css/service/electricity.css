@@ -1,0 +1,60 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+    line-height: 1.7;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 18%;
+}
+.green {
+    color: #017950;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.blue {
+    color: #0367b9;
+    font-weight: bold;
+}
+
+
+.content .right table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.content .right table tr td {
+    padding: 10px 5px;
+    width: 50%;
+    border:1px solid #0367b9 ;
+}
+
+.content .right table tr td img {
+    max-width: 100%;
+    text-align: center;
+}
+.content .right table tr td p {
+    text-align: center;
+    color: #017950; 
+}
+.content .right .txt-section {
+    padding-bottom: 10px;
+}
+.content .right .txt-section h3{
+    padding-bottom: 5px;
+    color: #017950;
+    font-size: 1.3em;
+
+}
+.content .right .txt-section ul {
+    padding-left: 22px;
+}

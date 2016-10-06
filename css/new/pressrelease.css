@@ -1,0 +1,70 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right .col1_top{
+	padding:10px 0px 10px 23px;
+	background-color: #0166b8;
+	text-align:left;
+	padding-bottom: 44px;
+}
+.content .right .col1_top p a{
+	margin-left:15px;
+	margin-top:-2px;
+	float:left;
+}
+.content .right .col3_bot img.position_company_2{
+    max-width: 100%;
+	height: 328px;
+}
+.content .right .col3_bot img.position_company_3{
+    max-width: 100%;
+	height: 328px;
+}
+.content .right .col3_bot .position_company_2{
+	max-width:100%;
+}
+.content .right .col_bot3 .position_company_3{
+	max-width:100%;
+}
+.content .right .col3_bot{
+	padding: 20px;
+    border: 1px solid #0166b8;
+    text-align: left;
+}
+.content .right .col3_bot img.position_company_4{
+	max-width: 100%;
+}
+.content .right .col3_bot img.position_company_5{
+	max-width: 100%;
+}
+.content .right .col3_bot img.position_company_6{
+	max-width: 100%;
+	height: 218px;
+}
+.content .right .arrow_bot{
+	width:16px;
+	float: left;
+	padding-top: 8px;
+}
+.content .right .arrow_bot_1
+{
+	width:19px;
+	float: left;
+	padding-top: 8px;
+}
+.content .right .new{
+	width:40px;
+	float: left;
+}
+.content .right p {
+	padding-bottom: 10px;
+}

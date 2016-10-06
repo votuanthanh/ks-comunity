@@ -1,0 +1,41 @@
+.content .right {
+	padding: 8px 50px 15px 15px;
+}
+.content .right h1 {
+	font-size: 2em;
+    color: #0166b8;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
+}
+.content .right img.border {
+	max-width: 18%;
+}
+.green {
+    color: #017950;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.blue {
+    color: #0367b9;
+    font-weight: bold;
+}
+.content .right p.arrow-left {
+    color: #15815c;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    background-image: url("../../images/ul.png");
+    background-repeat: no-repeat;
+    background-size: 15px auto;
+    background-position: left center;
+}
+.content .right ul {
+    padding-left: 42px;
+    padding-bottom: 10px;
+}
+
+.content .right p:last-child {
+    padding-top: 20px;
+}
