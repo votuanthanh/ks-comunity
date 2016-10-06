@@ -2,15 +2,15 @@
 	padding: 8px 15px 15px 15px;
 }
 .content .right h1 {
-	font-size: 30px;
+	font-size: 2em;
     color: #0166b8;
     font-weight: bold;
-    margin-bottom: 19px;
-    margin-top: 0;
+    margin-bottom: 5px;
     font-family: KozGoPr6n Heavy;
+    margin-top: 0;
 }
-.content .right img {
-	max-width: 13%;
+.content .right img.border {
+	max-width: 11%;
 }
 .content .right .text-infor-person .txt-left {
 	padding-top: 20px;
@@ -20,6 +20,19 @@
 }
 .content .right .text-infor-person .img-right {
 	padding-left: 30px
+}
+
+.content .right .avatar {
+	padding-right: 144px;
+    margin-top: 26px;
+}
+.content .right .avatar img{
+	max-width: 100%;
+}
+.content .right .avatar span{
+    display: block;
+    text-align: right;
+    font-weight: bold;
 }
 
 

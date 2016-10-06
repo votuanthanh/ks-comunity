@@ -6,15 +6,14 @@
     color: #0166b8;
     font-weight: bold;
     margin-bottom: 5px;
-    text-align: center;
+    text-align: left;
     font-family: KozGoPr6n Heavy;
     margin-top: 0;
 }
 .content .right img.border {
 	max-width: 19%;
-	margin: 0 auto;
-	display: block;
-	padding-bottom: 15px;
+    margin-left: 10%;
+    margin-bottom: 20px;
 }
 
 .content .right h3 {

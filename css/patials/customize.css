@@ -25,8 +25,8 @@ html{
 	box-sizing: border-box;
 }
 body{
-	font-size: 13px;
-	font-family: KozGoPr6n Medium, Arial,"Helvetica Neue",Helvetica,sans-serif, KozGoPr6n Regular, KozGoPr6n Heavy, KozGoPr6n Bold;
+	font-size: 14px;
+	font-family: KozGoPr6n Medium,KozGoPr6n Regular, KozGoPr6n Heavy, KozGoPr6n Bold, Arial,"Helvetica Neue",Helvetica,sans-serif, KozGoPr6n Regular, KozGoPr6n Heavy, KozGoPr6n Bold;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-size-adjust: none;

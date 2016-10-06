@@ -1,16 +1,22 @@
 #scrollTop {
 	text-align: right;
 	padding-right: 20px;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
 }
+
 footer {
 	background-image   : url("../../images/icon-location.png");
 	background-size: 150px auto;
+	font-size: 0.8em;
 	background-position:center center;
 	background-repeat: no-repeat;
 	padding            : 20px 0px 10px 40px;
 	background-color   : #0166b8;
 	color              : #fff;
 	position: relative;
+	font-family: KozGoPr6n Regular;
 }
 footer .address-tokyo {
 	padding-left: 15px;
@@ -30,7 +36,7 @@ footer .copyright {
 }
 footer .download-brochue {
 	position: absolute;
-    bottom: 70px;
+    bottom: 40px;
     right: 115px;
 }
 footer .download-brochue img {

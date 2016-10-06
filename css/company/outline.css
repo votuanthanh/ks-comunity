@@ -9,15 +9,11 @@
     color: #0166b8;
     font-weight: bold;
     margin-bottom: 5px;
-    text-align: center;
     font-family: KozGoPr6n Heavy;
     margin-top: 0;
 }
 .content .right img.border {
-	display: block;
-	max-width: 19%;
-	margin: 0 auto;
-	padding-bottom: 15px;
+	max-width: 11%;
 }
 
 .content .right table, th, td {

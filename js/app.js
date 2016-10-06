@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$('.dropdown ul').hide();
 	$('.dropdown').hover(function() {
 	    $dropdown = $(this).find('ul');
-	    $dropdown.stop().slideDown(300);
+	    $dropdown.stop().slideDown(400);
 	}, function() {
 	    $dropdown.stop().slideUp(200);
 	});
@@ -14,3 +14,19 @@ $("a[href='#top']").click(function() {
   	$("html, body").animate({ scrollTop: 0 }, "slow");
   	return false;
 });
+//sticky
+$('.content').waypoint(function(direction){
+	if(direction == "down")
+	{
+		$('.nav').addClass('sticky');
+		$('.logo-ks-comunity-ticky').show();
+	}
+	else
+	{
+		$('.nav').removeClass('sticky');
+		$('.logo-ks-comunity-ticky').hide();
+	}
+},{
+	offset : '100px'
+});
+

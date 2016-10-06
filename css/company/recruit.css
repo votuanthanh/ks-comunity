@@ -2,18 +2,17 @@
 	padding: 8px 50px 15px 15px;
 }
 .content .right h1 {
-	padding-bottom: 20px;
 	font-size: 2em;
     color: #0166b8;
     font-weight: bold;
-    background-image: url("../images/boder.png");
-    background-size: 233px auto;
-    background-repeat: no-repeat;
-    background-position: left bottom;	
+    margin-bottom: 5px;
+    font-family: KozGoPr6n Heavy;
+    margin-top: 0;
 }
 
 .content .right img.border {
-	max-width: 24%;
+	max-width: 20%;
+    margin-left: 40px;
 }
 
 .content .right h3 {
