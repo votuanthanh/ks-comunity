@@ -31,7 +31,7 @@ body{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-size-adjust: none;
     -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 /*CUSTOMIZE */
 .clearfix {zoom:1;}
